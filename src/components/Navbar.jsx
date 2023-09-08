@@ -113,7 +113,7 @@ export default function Navbar() {
           </ListItem>
           <ListItem button onClick={toggleMobileMenu}>
             <ListItemText
-              color="yellow !important"
+              // color="yellow !important"
               primary="Contact Us"
               style={listItemTextStyles}
             />
