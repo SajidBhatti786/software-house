@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
+import Homepage from "./pages/Homepage";
+import { Routes, Route } from "react-router-dom";
 function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -12,6 +14,9 @@ function App() {
         <div className="app">
           <main className="content">
             <Navbar />
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+            </Routes>
           </main>
         </div>
       </ThemeProvider>
