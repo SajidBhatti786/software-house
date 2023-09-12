@@ -63,7 +63,7 @@ const HeroSection = () => {
                 gutterBottom
                 fontSize="3rem"
               >
-                Your Trusted Software House
+                𝗬𝗼𝘂𝗿 𝗢𝘄𝗻 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗛𝗼𝘂𝘀𝗲
               </Typography>
               <Typography
                 variant="subtitle1"
